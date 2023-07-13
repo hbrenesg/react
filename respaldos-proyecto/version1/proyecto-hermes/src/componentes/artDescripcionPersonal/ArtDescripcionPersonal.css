@@ -1,0 +1,11 @@
+.artDescripcionPersonal-principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.imagen-perfil {
+    border-radius: 8px;
+    width: 120px;
+}

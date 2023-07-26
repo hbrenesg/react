@@ -3,7 +3,7 @@ import './ArtHabilidades.css';
 function ArtHabilidades() {
     return (
         <div className='artHabilidades-principal'>
-            <p>Espacio para Artículo de Habilidades</p>
+            <p className='p-skills'>SKILLS</p>
         </div>
     );
 }

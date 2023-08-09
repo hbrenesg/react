@@ -4,8 +4,7 @@ import './Formulario.css';
 export default class Formulario extends React.Component {
     constructor(props) {
         super(props);
-        // this.state = { nombre: '', mensaje: '', prioridad: ['urgente', 'otra'] };
-        this.state = { nombre: '', mensaje: '', prioridad: [] };
+        this.state = { nombre: '', mensaje: '', prioridad: ['urgente', 'otra'] };
 
         this.ejecutarCambios = this.ejecutarCambios.bind(this);
         this.ejecutarCambiosMensaje = this.ejecutarCambiosMensaje.bind(this);

@@ -1,0 +1,12 @@
+.li-habilidad {
+    list-style: none;
+    position: relative;
+    padding: 3px 0 2px 25px;
+}
+
+.li-habilidad::before {
+    content: '*';
+    position: absolute;
+    top: 6px;
+    left: 0;
+}

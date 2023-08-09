@@ -1,13 +1,7 @@
 //import logo from './logo.svg';
 import './App.css';
-import BasicoE from './componentes/basicoE/BasicoE';
-// import Basico from './componentes/basico/Basico';
-// import BasicoF from './componentes/basicoF/BasicoF';
-// import FormularioF from './componentes/formularioF/FormularioF';
 //import { Spinner } from 'reactstrap';
-// import Formulario from './componentes/formulario/Formulario';
-// import FormularioB from './componentes/formularioB/FormularioB';
-// import FormularioN from './componentes/formularioN/FormularioN';
+import Formulario from './componentes/formulario/Formulario';
 
 // import Aviso from './componentes/aviso/Aviso';
 // import Publicacion from './componentes/publicacion/Publicacion';
@@ -119,7 +113,7 @@ import BasicoE from './componentes/basicoE/BasicoE';
 
 function App() {
   return (
-    <BasicoE nombre="Hermes"></BasicoE>
+    <Formulario></Formulario>
   )
 }
 

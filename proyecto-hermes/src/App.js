@@ -6,6 +6,7 @@ import ArtHabilidades from './componentes/artHabilidades/ArtHabilidades.js';
 import ArtExpercienciaLaboral from './componentes/artExperienciaLaboral/ArtExperienciaLaboral.js';
 import ArtComentarios from './componentes/artComentarios/ArtComentarios.js';
 import PiePagina from './componentes/piePagina/PiePagina.js';
+import FormularioContacto from './componentes/formularioContacto/FormularioContacto';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <ArtHabilidades></ArtHabilidades>
       <ArtExpercienciaLaboral></ArtExpercienciaLaboral>
       <ArtComentarios></ArtComentarios>
+      <FormularioContacto />
       <PiePagina urlImagenIcono='./img/iconoProyectoReact.png'></PiePagina>
     </div>
   );

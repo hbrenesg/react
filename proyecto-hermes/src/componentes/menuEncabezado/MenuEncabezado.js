@@ -22,6 +22,9 @@ function MenuEncabezado(props) {
                 <li className='li-link'>
                     <a href='./' className='a-link'>CONTACT</a>
                 </li>
+                <li className='li-link'>
+                    <a href='./' className='a-link'>NEWS</a>
+                </li>
             </ul>
         </div>
     );

@@ -1,0 +1,60 @@
+.div-principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.div-links {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.li-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.ul-links {
+    display: flex;
+}
+
+.a-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    /* width: 20%;
+    height: 40px; */
+    /* background-color: #3c8372; */
+    color: #3c8372;
+    font-weight: bold;
+    /* margin-top: 10px;
+    cursor: pointer;
+    user-select: none; */
+}
+
+.logo-proyecto-react {
+    border-radius: 8px;
+    width: 120px;
+}
+
+.boton-contacto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+    height: 40px;
+    /* background-color: #3c8372; */
+    border-radius: 10px;
+    color: #3c8372;
+    font-weight: bold;
+    margin-top: 10px;
+    cursor: pointer;
+    user-select: none;
+}

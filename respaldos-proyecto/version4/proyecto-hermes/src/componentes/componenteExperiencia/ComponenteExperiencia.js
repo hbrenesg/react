@@ -6,7 +6,6 @@ import ComponenteExperienciaLink from '../componenteExperienciaLink/ComponenteEx
 class ComponenteExperiencia extends React.Component {
     constructor(props) {
         super(props);
-        this.mouseEncima = false;
         this.state = { mouseEncima: false };
         this.manejadorEventoMouse = this.manejadorEventoMouse.bind(this);
         // this.mayorInformacionBtn = this.mayorInformacionBtn.bind(this);
@@ -30,7 +29,6 @@ class ComponenteExperiencia extends React.Component {
                 <ComponenteExperienciaLink linkEmpresa={this.props.linkEmpresa} descripcionLink={this.props.descripcionLink} />
                 {/* <button onClick={this.mayorInformacionBtn}>MORE INFO</button> */}
             </div>
-
         } else {
             componenteAMostrar = <div onMouseOver={this.manejadorEventoMouse} className='div-ComponenteAMostrar'>
                 <ComponenteExperienciaImagen urlImagenEmpresa={this.props.urlImagenEmpresa}></ComponenteExperienciaImagen>

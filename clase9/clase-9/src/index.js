@@ -4,22 +4,19 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-//Se importa el store
-import storeA from './redux/store';
+// Se importa el store
+import storeF from './redux/store';
 
-//Conectar Redux con mi App React
+// Para conectar Redux con mi App React se requiere el siguiente componente
 import { Provider } from 'react-redux';
 
-const store = storeA();
+const store = storeF();
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  //Se comenta lo siguiente para que funcione el render del react router
-  // <React.StrictMode>
   <Provider store={store}>
     <App />
   </Provider>
-  // </React.StrictMode>
 );
 
 // If you want to start measuring performance in your app, pass a function

@@ -1,0 +1,10 @@
+.artComentarios-principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.p-testimonials {
+    font-size: 25px;
+}
